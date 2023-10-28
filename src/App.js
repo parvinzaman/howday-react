@@ -13,6 +13,7 @@ export default function App(props) {
       humidity: response.data.main.humidity,
       wind: Math.round(response.data.wind.speed),
       city: response.data.name,
+      icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
     });
@@ -67,8 +68,8 @@ export default function App(props) {
                       </button>
                     </div>
                   </form>
-                  <WeatherInfo info={weatherData} />
                 </div>
+                <WeatherInfo info={weatherData} />
               </div>
               <div className="weather-forecast" id="forecast"></div>
             </div>

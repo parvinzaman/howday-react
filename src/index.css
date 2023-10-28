@@ -1,11 +1,7 @@
 body {
   font-family: "Sansita", sans-serif;
-  color: rgb(133, 47, 190);
-  background: linear-gradient(
-    to top,
-    rgb(177, 95, 231) 20%,
-    rgb(213, 169, 243) 80%
-  );
+  color: #efe1fd;
+  background: #efe1fd;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -33,12 +29,12 @@ a {
 }
 
 small {
-  color: #faf3ff;
+  color: rgb(133, 47, 190);
   font-family: "Gabriela", serif;
 }
 
 .source {
-  color: #faf3ff;
+  color: rgb(133, 47, 190);
   font-family: "Gabriela", serif;
   text-decoration-line: underline;
 }
@@ -50,7 +46,12 @@ small {
 
 .weatherApp {
   padding: 20px;
-  background: #efe1fd;
+  color: #ffffff;
+  background: linear-gradient(
+    to top,
+    rgb(177, 95, 231) 20%,
+    rgb(213, 169, 243) 80%
+  );
   border-radius: 10px;
   box-shadow: rgb(136, 136, 136) 0px 2px 8px 2px;
 }
@@ -67,18 +68,19 @@ small {
 }
 
 .dayTemp .active {
-  color: rgb(133, 47, 190);
+  color: #ffffff;
   cursor: default;
 }
 
 .dayIcon {
   margin: 0px;
   padding: 0px;
+  width: 150px;
 }
 
 .units {
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 19px;
+  font-weight: 500;
   position: relative;
   top: -20px;
 }
