@@ -56,7 +56,7 @@ export default function App(props) {
                       className="form-control searchBox"
                       placeholder="Enter a city..."
                       id="city-input"
-                      autocomplete="off"
+                      autoComplete="off"
                       onChange={handleCityChange}
                     />
                     <div className="input-group-append">
