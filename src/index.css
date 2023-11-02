@@ -25,10 +25,14 @@ li::first-letter {
 }
 
 a {
-  text-decoration-line: none;
+  text-decoration: none;
+  color: rgb(133, 47, 190);
 }
 
 small {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
   color: rgb(133, 47, 190);
   font-family: "Gabriela", serif;
 }
@@ -47,11 +51,7 @@ small {
 .weatherApp {
   padding: 20px;
   color: #ffffff;
-  background: linear-gradient(
-    to top,
-    rgb(177, 95, 231) 20%,
-    rgb(213, 169, 243) 80%
-  );
+  background: rgb(196, 151, 226);
   border-radius: 10px;
   box-shadow: rgb(136, 136, 136) 0px 2px 8px 2px;
 }
@@ -63,8 +63,9 @@ small {
 }
 
 .dayTemp {
-  font-size: 46px;
+  font-size: 50px;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .dayTemp .active {
@@ -75,11 +76,11 @@ small {
 .dayIcon {
   margin: 0px;
   padding: 0px;
-  width: 150px;
+  width: 100px;
 }
 
 .units {
-  font-size: 19px;
+  font-size: 25px;
   font-weight: 500;
   position: relative;
   top: -20px;
@@ -147,6 +148,6 @@ small {
   opacity: 0.7;
 }
 
-.forcastDayIcon {
-  max-width: 80px;
+.weather-forecast .forcastDayIcon {
+  max-width: 20px;
 }

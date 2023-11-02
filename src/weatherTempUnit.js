@@ -19,10 +19,8 @@ export default function WeatherTempUnit(props) {
   if (unit === "celsius") {
     return (
       <span className="weatherTempUnit">
-        <span className="dayTemp">
-          <span id="temprature" className="dayTemp">
-            {props.celsius}
-          </span>
+        <span className="temp">
+          <span id="temprature">{props.celsius}</span>
           <span className="units">
             <a href="a" className="active">
               °C
