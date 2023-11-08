@@ -189,9 +189,15 @@ small {
     font-size: 70px;
   }
 
+  .info1 {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
   .info2 {
-    position: relative;
-    top: 25px;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 10px;
   }
 
   .weather-forecast {
@@ -203,7 +209,7 @@ small {
 
   small {
     position: absolute;
-    bottom: 25px;
+    bottom: 15px;
     left: 55px;
     color: #ffffff;
     opacity: 80%;
