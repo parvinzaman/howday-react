@@ -141,7 +141,7 @@ small {
 .weather-forecast {
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   font-size: 25px;
 }
 
@@ -159,4 +159,53 @@ small {
 
 .weather-forecast .forcastDayIcon {
   max-width: 20px;
+}
+
+@media (max-width: 390px) {
+  body {
+    max-width: 390px;
+  }
+
+  .weatherAppWrapper {
+    max-width: 390px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .search {
+    max-width: 350px;
+    margin: 20px auto;
+  }
+
+  .day {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .dayTemp {
+    font-size: 70px;
+  }
+
+  .info2 {
+    position: relative;
+    top: 25px;
+  }
+
+  .weather-forecast {
+    display: flex;
+    justify-content: space-between;
+    max-width: 55px;
+    margin-bottom: 50px;
+  }
+
+  small {
+    position: absolute;
+    bottom: 25px;
+    left: 55px;
+    color: #ffffff;
+    opacity: 80%;
+  }
 }
