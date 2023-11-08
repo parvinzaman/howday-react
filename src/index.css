@@ -87,8 +87,16 @@ small {
 }
 
 .cityName {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 600;
+}
+
+.date {
+  font-size: 25px;
+}
+
+.description {
+  font-size: 25px;
 }
 
 .info1 {
@@ -98,9 +106,10 @@ small {
 }
 
 .info2 {
+  font-size: 25px;
   font-weight: 500;
   position: relative;
-  top: 25px;
+  top: 50px;
 }
 
 .searchForm {

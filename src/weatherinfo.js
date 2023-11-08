@@ -18,12 +18,11 @@ export default function WeatherInfo(props) {
               {props.info.city}
             </li>
             <li>
-              Last updated at{" "}
-              <span id="date">
+              <span className="date">
                 <FormattedDate date={props.info.date} />
               </span>
             </li>
-            <li id="description">{props.info.description}</li>
+            <li className="description">{props.info.description}</li>
           </ul>
         </div>
         <div className="col-md-4 info2">
