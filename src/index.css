@@ -204,14 +204,10 @@ small {
     display: flex;
     justify-content: space-between;
     max-width: 55px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   small {
-    position: absolute;
-    bottom: 15px;
-    left: 55px;
-    color: #ffffff;
-    opacity: 80%;
+    margin-bottom: 10px;
   }
 }
